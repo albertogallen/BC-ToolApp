@@ -1,0 +1,27 @@
+{
+  "id": "e73896b3-02ea-46cb-b779-b8195c1a3f82",
+  "name": "Tool",
+  "publisher": "AGB",
+  "version": "1.0.0.1",
+  "brief": "Tool",
+  "description": "Tool",  
+  "platform": "21.0.0.0",
+  "application": "21.0.0.0",
+  "target": "Cloud",
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50010
+    }
+  ],
+  "dependencies": [    
+
+
+  ],
+  "contextSensitiveHelpUrl": "http://athome.es",
+  "runtime": "10.0",
+  "features": [
+    "TranslationFile"
+  ]  
+}

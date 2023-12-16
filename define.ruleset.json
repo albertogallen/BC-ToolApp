@@ -1,0 +1,21 @@
+{
+    "name": "Ruleset",
+    "description": "Personalización del analizador de código",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "./pendientes.ruleset.json"
+        }
+    ],
+    "rules": [{
+        "id": "AS0084",
+        "action": "None",
+        "justification": " The ID range '[50001..50100]' is not valid. "
+    }, {
+        "id": "AS0092",
+        "action": "None",
+        "justification": "The app.json file must specify an Azure Application Insights resource with the property 'applicationInsightsConnectionString' for monitoring operations related to this extension. See https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview for additional information."
+    }]
+}
+
+
